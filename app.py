@@ -5,9 +5,6 @@ flask-sqlalchemy 2.4.1
 requests 2.23.0
 pytemperature 1.0
 weather map API
-
-sqlite3 file.db
-db.create_all()
 '''
 import requests
 from flask import Flask, render_template, request
